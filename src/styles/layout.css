@@ -1,0 +1,40 @@
+/* styles/layout.css */
+.app {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* Sidebar */
+.app .sidebar {
+  width: 250px;
+  background-color: #1f2937; /* Dark gray */
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* Main content area */
+.app .main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.app .main .navbar {
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+/* Content area */
+.app .main .content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9fafb;
+}

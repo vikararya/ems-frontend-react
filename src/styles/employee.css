@@ -1,0 +1,97 @@
+/* ===== FORM ===== */
+.employee-form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) auto;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.employee-form input {
+  padding: 8px;
+}
+
+.employee-form button {
+  padding: 8px 16px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.employee-form button:hover {
+  background: #1e40af;
+}
+
+/* ===== TOOLBAR ===== */
+.employee-toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.employee-toolbar input {
+  flex: 1;
+  padding: 8px;
+}
+
+.employee-toolbar select {
+  padding: 8px;
+}
+
+/* ===== IMPORT CSV ===== */
+.employee-import {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.employee-import button {
+  padding: 8px 14px;
+}
+
+/* ===== TABLE ===== */
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+.employee-table th,
+.employee-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.employee-table th {
+  background: #f3f4f6;
+}
+
+.employee-table tr:hover {
+  background: #f9fafb;
+}
+
+.employee-table button {
+  margin-right: 6px;
+  padding: 4px 8px;
+}
+
+/* ===== PAGINATION ===== */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
